@@ -1,15 +1,19 @@
-# Session 1 - (Committed) Create Project, Layout Material, Master/Details 
-# Session 2 - (Committed) Models, Mock Data, Binding, List Array 
-# Session 3 - (Committed) Services, REST API
+# FEIT Instagram
 
-Session 3 API Samples:
+Implementirano:
 
-https://5df115fd9df6fb00142bd818.mockapi.io/api/posts
-https://5df115fd9df6fb00142bd818.mockapi.io/api/posts/1/postComments
+-registriranje na useri
+-logiranje na useri
+-validacija na polinja vo login i register formata
+-koristenje na firebase za kreiranje i updatiranje useri na backend
+-koristenje na 'angular/fire/auth' za pomos pri mendziranje useri na firebase
+-koristenje na 'ngx-toastr' za prikazuvanje na errori pri neuspesna registracija ili login
+-logout na koristnici
+-koristenje na localeStorage za pamtenje na user dali e logiran, za da nema potreba da se logira pri sekoj refresh
+-koristenje na async/await
+-pristapuvanje na zastiteni routes samo od logirani korisnici
+-Prikazuvanje na vistinsko ime na korisnikot pri dodavanje nov komentar
 
-Create your own clone API:
-
-https://www.mockapi.io/clone/5df115fd9df6fb00142bd819
-
-# Session 4 - (Pending) GIT Branching & Pull Requests, Virtual Scrolling, Paging
-Virtual Scrolling: https://angular-yni1jw.stackblitz.io/
+# Start app
+npm install
+ng serve
