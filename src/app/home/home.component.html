@@ -1,0 +1,11 @@
+<h1>Hi {{currentUser.displayName}}!</h1>
+<mat-toolbar color="primary">FEIT Instagram</mat-toolbar>
+
+<cdk-virtual-scroll-viewport [itemSize]="200" style="height: 700px">
+  <div *cdkVirtualFor="let post of posts">
+    <app-posts (click)="onClick(post)" [pictureUrl]="post.photoUrl"></app-posts>
+  </div>
+  <div style="padding: 30px;">
+    <button mat-fab color="basic" (click)="onLoadMore()">Next</button>
+  </div>
+</cdk-virtual-scroll-viewport>
