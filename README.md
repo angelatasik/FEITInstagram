@@ -12,7 +12,7 @@ Implementirano:
 -koristenje na localeStorage za pamtenje na user dali e logiran, za da nema potreba da se logira pri sekoj refresh \
 -koristenje na async/await \
 -pristapuvanje na zastiteni routes samo od logirani korisnici \
--Prikazuvanje na vistinsko ime na korisnikot pri dodavanje nov komentar \
+-Prikazuvanje na vistinsko ime na korisnikot pri dodavanje nov komentar
 
 # Start app
 npm install \
