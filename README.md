@@ -2,8 +2,8 @@
 
 Implementirano:
 
--registriranje na useri
--logiranje na useri
+-registriranje na useri \
+-logiranje na useri \
 -validacija na polinja vo login i register formata
 -koristenje na firebase za kreiranje i updatiranje useri na backend
 -koristenje na 'angular/fire/auth' za pomos pri mendziranje useri na firebase
